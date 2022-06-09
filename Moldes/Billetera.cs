@@ -19,7 +19,7 @@ namespace BilleteraEjercicio.Moldes
             BilletesDe500 = billetesDe500;
             BilletesDe1000 = billetesDe1000;
         }
-
+         
         public int BilletesDe10 { get; set; }
         public int BilletesDe20 { get; set; }
         public int BilletesDe50 { get; set; }
@@ -51,7 +51,7 @@ namespace BilleteraEjercicio.Moldes
 
         }
 
-        public void BilleteraSeca(Billetera billeteraSeca)
+        private void BilleteraSeca(Billetera billeteraSeca)
         {
             billeteraSeca.BilletesDe10 = 0;
             billeteraSeca.BilletesDe20 = 0;

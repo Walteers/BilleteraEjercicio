@@ -17,5 +17,3 @@ Billetera3 = Billetera1.Combinar(Billetera2);
 Console.WriteLine($"Total billetera1: {Billetera1.Total()}");
 Console.WriteLine($"Total billetera2: {Billetera2.Total()}");
 Console.WriteLine($"Total billetera3: {Billetera3.Total()}");
-
-
